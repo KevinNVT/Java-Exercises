@@ -11,7 +11,7 @@ public class Main {
         
         // Verify the array has at least two elements
         if (array.length < 2) {
-            System.out.println("Array debe contener al menos dos números.");
+            System.out.println("Array must contain at least two elements.");
             return;
         }
         
