@@ -8,25 +8,34 @@ public class Main {
     public static void main(String[] args) {
         // Array
         int[] array = {5, 3, 8, 7, 9};
+        // Get the array lenght
+        int length = array.length;
         
         // Verify the array has at least two elements
         if (array.length < 2) {
             System.out.println("Array must contain at least two elements.");
             return;
         }
-        
+
         // Sort the array in ascending order
         Arrays.sort(array);
-        // Get the array lenght
-        int length = array.length;
 
-        int elementOne = array[length - 1]; // Largest number
-        int elementSecond = array[length - 2]; // Second largest number
-        int biggest = elementOne * elementSecond;
+        // Get the smallest numbers (Handle negative numbers)
+        int smallest = array[0]; // Smallest number
+        int secondSmallest = array[1]; // Second smallest number
+        // Get the largest numbers
+        int largest = array[length - 1]; // Largest number
+        int secondLargest = array[length - 2]; // Second largest number
 
-        //Two numbers multiplied
-        System.out.println("Numbers multiplied: " + elementOne + " and " + elementSecond);
-        // Biggest product posible
-        System.out.println("Biggest product = " + biggest);
+        int maxProduct = largest * secondLargest;
+        int minProduct = smallest * secondSmallest;
+
+        if (maxProduct > minProduct) {
+            System.out.println("Numbers multiplied: " + largest + " and " + secondLargest);
+            System.out.println("Biggest product = " + maxProduct);
+        } else {
+            System.out.println("Numbers multiplied: " + smallest + " and " + secondSmallest);
+            System.out.println("Biggest product = " + minProduct);
+        }
     }
 }
