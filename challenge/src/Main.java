@@ -8,6 +8,13 @@ public class Main {
     public static void main(String[] args) {
         // Array
         int[] array = {5, 3, 8, 7, 9};
+        
+        // Verify the array has at least two elements
+        if (array.length < 2) {
+            System.out.println("Array debe contener al menos dos números.");
+            return;
+        }
+        
         // Sort the array in ascending order
         Arrays.sort(array);
         // Get the array lenght
