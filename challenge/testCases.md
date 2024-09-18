@@ -1,5 +1,5 @@
 # Test cases
-## One arrys
+## One array
 
 ### Test Case 1: Positive numbers in the array
 ```java
