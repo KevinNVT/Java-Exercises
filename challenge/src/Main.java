@@ -6,7 +6,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         // First array
-        int[] array = {5, 3, 8, 7, 10};
+        int[] array = {5, 3, 8, 7, 10}; // Positive numbers
+        
         // Get the array length
         int length = array.length;
 
