@@ -70,7 +70,7 @@ int[] array = {5};
 // Expected output: Array must contain at least two elements.
 ```
 
-## Two arryas
+## Two arrays
 ### Test Case 1: Both arrays contain only positive numbers
 ```java
 int[] array1 = {1, 2, 3, 4, 5};
