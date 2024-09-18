@@ -1,3 +1,6 @@
+// For a given input array of numbers, find the two that result in the largest product. The ouput should include the two numbers in the array along with their product.
+//As an extra challenge, use an input of two arrays of numbers and find two numbers - one from each input array - that results in the largest product.
+
 import java.util.Arrays;
 
 public class Main {
@@ -59,7 +62,6 @@ public class Main {
         int product1 = largestArray1 * largestArray2; // Product of the largest from both arrays
         int product2 = smallestArray1 * smallestArray2; // Product of the smallest from both arrays
 
-        // Determine which product is larger
         if (product1 > product2) {
             System.out.println("Numbers multiplied: " + largestArray1 + " and " + largestArray2);
             System.out.println("Biggest product = " + product1);
