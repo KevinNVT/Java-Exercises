@@ -37,5 +37,18 @@ public class Main {
             System.out.println("Numbers multiplied: " + smallest + " and " + secondSmallest);
             System.out.println("Biggest product = " + minProduct);
         }
+
+        // Extra challenge
+        int[] array1 = {5, 3, 8, 7, 9}; // First array
+        int[] array2 = {-4, 6, 2, -9, 10}; // Second array
+        // verify both arrays have at least one element
+        if (array1.length == 0 || array2.length == 0) {
+            System.out.println("Both arrays must contain at least one element.");
+            return;
+        }
+        
+        Arrays.sort(array1);
+        Arrays.sort(array2);
+        
     }
 }
