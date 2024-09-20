@@ -62,7 +62,7 @@ public class Main {
         // Calculate the possible products between the two arrays
         int product1 = largestArray1 * largestArray2; // Product of the largest from both arrays
         int product2 = smallestArray1 * smallestArray2; // Product of the smallest from both arrays
-
+        
         if (product1 > product2) {
             System.out.println("Numbers multiplied: " + largestArray1 + " and " + largestArray2);
             System.out.println("Biggest product = " + product1);
