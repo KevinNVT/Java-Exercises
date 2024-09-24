@@ -10,7 +10,7 @@ public class Main {
         
         // Get the array length
         int length = array.length;
-
+        
         // Verify the array has at least two elements
         if (length < 2) {
             System.out.println("Array must contain at least two elements.");
