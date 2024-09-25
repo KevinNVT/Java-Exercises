@@ -52,7 +52,7 @@ public class Main {
         // Sort both arrays
         Arrays.sort(array1);
         Arrays.sort(array2);
-
+        
         // Get smallest and largest numbers from both arrays
         int smallestArray1 = array1[0]; // Smallest in first array
         int largestArray1 = array1[array1.length - 1]; // Largest in first array
